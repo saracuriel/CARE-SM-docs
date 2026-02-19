@@ -8,7 +8,7 @@ If you want to understand more deeply what you are doing, read on!
 
 [CARE Semantic Model](https://github.com/CARE-SM/CARE-Semantic-Model) defines a set of clinical data elements used in the healthcare domain of knowledge. However, it doesn't specify a mechanism for bringing these to life. 
 
-The proposed implementation workflows described in this repository (both Fiab and Standalone) uses a common set of technologies for the whole transformation of patient data into a RDF-representation.
+The proposed implementation workflows described in this repository (both FiaB and Standalone) uses a common set of technologies for the whole transformation of patient data into a RDF-representation.
 
 1) **CSV**
 
@@ -23,7 +23,7 @@ This implementation requires two main transformation steps:
 
 1) **Data pre-validation and adaptation**
 
-    After creating this CSV template with the patient data on it, this CSV template needs to be adapted to YARRRML template before performing RDF transformation. This modification add additional fields and automatically make certain translations that reduce the complexity and burden on the data provider. This translation is executed by a component called [CARE-SM Toolkit](https://care-sm.readthedocs.io/en/latest/toolkit.html#).
+    After creating this CSV template with the patient data on it, this CSV template needs to be adapted to YARRRML template before performing RDF transformation. This modification adds additional fields and automatically makes certain translations that reduce the complexity and burden on the data provider. This translation is executed by a component called [CARE-SM Toolkit](https://care-sm.readthedocs.io/en/latest/toolkit.html#).
 
 2) **Data transformation into RDF** 
 
@@ -43,7 +43,7 @@ From those who are not interested in using FAIR-in-a-box or interested in explor
   <img src="https://github.com/CARE-SM/CARE-SM-Implementation/blob/main/CARE-SM_workflow.png?raw=true"> 
 <p align="center" ><b>Figure 1: Standalone CARE-SM implementation </b></p>
 
-1) **CSV template creation:** First, a CSV data template is created using the CSV template defined by a [data element glossary](https://github.com/CARE-SM/CARE-SM-Implementation/tree/main/CSV/README.md) Rename your CSV file with one of the tagnames defined at the glossary. Eg.: "Diagnosis", "First_visit" or "Laboratory".
+1) **CSV template creation:** First, a CSV data template is created using the CSV template defined by a [data element glossary](https://github.com/CARE-SM/CARE-SM-Implementation/tree/main/CSV/README.md). Rename your CSV file with one of the tagnames defined at the glossary. Eg.: "Diagnosis", "First_visit" or "Laboratory".
 
 2) **Quality control by CARE-SM Toolkit**: CARE-SM Toolkit will transform all your tagged CSV files e.g.: `Diagnosis.csv` to the curated CSV template called `CARE.csv` (green boxes from Figure 1).  This step generates a much richer CSV file that is used by the YARRRML to do the final RDF transformation.
 
