@@ -525,7 +525,7 @@ This guide explains how to structure, populate, and utilize CSV files for patien
 - ![](https://placehold.jp/12/a29e96/000000/20x20.png?text=N) **activity**: 
 - ![](https://placehold.jp/12/d7a028/000000/20x20.png?text=O) **unit**: Full concept IRI for the unit of measurement.
 - ![](https://placehold.jp/12/a29e96/000000/20x20.png?text=N) **input**: Full concept IRI for the clinical question performed.
-- ![](https://placehold.jp/12/a29e96/000000/20x20.png?text=N) **target**: 
+- ![](https://placehold.jp/12/a29e96/000000/20x20.png?text=O) **target**: Full concept IRI for the anatomic structure whose functionality is affected by the disability. 
 - ![](https://placehold.jp/12/2854d7/ffffff/20x20.png?text=M) **specification**: Full concept IRI for the assessment tool or questionnaire specification.
 - ![](https://placehold.jp/12/d7a028/000000/20x20.png?text=O) **duration_value**: ISO 8601 duration value of the disability duration interval, for instance, P10Y.
 - ![](https://placehold.jp/12/d7a028/000000/20x20.png?text=O) **duration_startdate**: ISO 8601 start date of the disability duration interval.
