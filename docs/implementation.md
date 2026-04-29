@@ -2,13 +2,13 @@
 
 **Quick start**
 
-To jump directly to the "just tell me what I have to do to make this work" using FAIR-in-a-box software, please [follow this link](https://github.com/ejp-rd-vp/FiaB/tree/main/CARE-SM-Fiab).
+To jump directly to the "just tell me what I have to do to make this work" using Sextans-Suite software, please first install the software's Sextans-Fix component following [these steps](https://github.com/wilkinsonlab/Sextans-Suite/tree/main/Sextans/Fix-install), and then implement CARE-SM by following the instructions in [the CARE-SM Quick Start section](https://github.com/wilkinsonlab/Sextans-Suite/tree/main/Sextans/Fix-install#care-sm-sextans-fix-quick-start).
 
 If you want to understand more deeply what you are doing, read on!
 
 [CARE Semantic Model](https://github.com/CARE-SM/CARE-Semantic-Model) defines a set of clinical data elements used in the healthcare domain of knowledge. However, it doesn't specify a mechanism for bringing these to life. 
 
-The proposed implementation workflows described in this repository (both FiaB and Standalone) uses a common set of technologies for the whole transformation of patient data into a RDF-representation.
+The proposed implementation workflows described in this repository (both Sextans-Suite and Standalone) uses a common set of technologies for the whole transformation of patient data into a RDF-representation.
 
 1) **CSV**
 
@@ -33,7 +33,8 @@ This implementation requires two main transformation steps:
 
 Born as a [European Joint Project on Rare Diseases (EJP-RD)](https://www.ejprarediseases.org/) initiative, a set of technologies and softwares have been created, capable of consuming data tables into RDF data representation. [FAIR-in-a-box](https://github.com/ejp-rd-vp/FiaB) has implemented a whole pipeline for patient-based data using CARE-SM. Same technologies can be used outside FAIR-in-a-box software in a standalone implementation.
 
-FAIR-in-a-box solution is documented out of this repository, please [follow Fiab link](https://github.com/ejp-rd-vp/FiaB)
+> ⚠️ **Important**
+Please, note that former <u>FAIR-in-a-box solution is now deprecated and has been replaced by Setxans-Suite</u>, which is documented out of this repository [here](https://github.com/wilkinsonlab/Sextans-Suite/). 
 
 ## Standalone implementation
 
